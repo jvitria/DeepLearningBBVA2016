@@ -50,12 +50,12 @@ print('scikit-learn:', sklearn.__version__)
 ```
 
 ```python
-numpy: 1.11.1
-scipy: 0.18.0
-matplotlib: 1.5.2
-iPython: 5.1.0
-pandas: 
-scikit-learn: 0.17.1
+('numpy:', '1.10.4')
+('scipy:', '0.17.0')
+('matplotlib:', '1.5.1')
+('iPython:', '4.1.2')
+('pandas:', u'0.18.0')
+('scikit-learn:', '0.17.1')
 ```
 
 
