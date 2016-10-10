@@ -45,3 +45,12 @@ import sklearn
 print('scikit-learn:', sklearn.__version__)
 ```
 
+```python
+numpy: 1.11.1
+scipy: 0.18.0
+matplotlib: 1.5.2
+iPython: 5.1.0
+scikit-learn: 0.17.1
+```
+
+
