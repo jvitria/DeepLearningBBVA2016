@@ -9,3 +9,17 @@
 ##Source
 
 https://github.com/jvitria/DataScience
+
+## Requirements
+
+This tutorial requires the following packages:
+
++ Python version 2.7+
++ numpy version 1.10 or later: http://www.numpy.org/
++ scipy version 0.16 or later: http://www.scipy.org/
++ matplotlib version 1.4 or later: http://matplotlib.org/
++ pandas version 0.16 or later: http://pandas.pydata.org
++ scikit-learn version 0.15 or later: http://scikit-learn.org
++ ipython/jupyter version 4.0 or later, with notebook support
+
+The easiest way to get these is to use an all-in-one installer such as Anaconda from Continuum. 
