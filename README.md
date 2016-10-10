@@ -8,7 +8,7 @@
 
 ##Source
 
-https://github.com/jvitria/DataScience
+https://github.com/jvitria/Python4DataScience
 
 ## Requirements
 
