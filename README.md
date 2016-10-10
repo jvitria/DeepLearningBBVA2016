@@ -23,3 +23,25 @@ This tutorial requires the following packages:
 + ipython/jupyter version 4.0 or later, with notebook support
 
 The easiest way to get these is to use an all-in-one installer such as Anaconda from Continuum. 
+
+## Test if everything is up&running
+
+Check installed versions:
+
+```python
+import numpy
+print('numpy:', numpy.__version__)
+
+import scipy
+print('scipy:', scipy.__version__)
+
+import matplotlib
+print('matplotlib:', matplotlib.__version__)
+
+import IPython
+print('iPython:', IPython.__version__)
+
+import sklearn
+print('scikit-learn:', sklearn.__version__)
+```
+
