@@ -2,11 +2,10 @@
 
 ## Goal of this Tutorial
 
-+ Introduce main features of Keras
-+ Learn how simple and Pythonic is doing Deep Learning with Keras
-+ Understand how easy is to do basic and advanced DL models in Keras;
-+ Examples and Hand-on Excerises along the way.
++ Introduce main features of Python.
++ Learn how simple is doing Data Science with Pyton
++ Examples and Hand-on Exercises.
 
 ##Source
 
-https://github.com/leriomaggio/deep-learning-keras-euroscipy2016/
+https://github.com/jvitria/DataScience
