@@ -1,6 +1,6 @@
 # Deep Learning from Scratch (v2.0)
 
-This course is organized by the DataScienceGroup@UB (http://cienciadedades.barcelona)
+This course is organized by the DataScienceGroup@UB (http://datascience.barcelona/)
 
 Deep learning is one of the fastest growing areas of machine learning and a hot topic in both academia and industry.
 This course will cover the basics of deep learning by using a hands-on approach.
@@ -21,30 +21,17 @@ This course will cover the basics of deep learning by using a hands-on approach.
 The best way to run the course software is to use a Docker container. There’s full documentation on installing Docker at ``docker.com``, but in a few words, the steps are:
 
 + Go to ``docs.docker.com`` in your browser.
-+ Step one of the instructions sends you to download the Docker Toolbox.
-+ On the Toolbox page, click on the Mac/Windows download button.
-+ Run that downloaded file to install the Toolbox.
-+ At the end of the install process, chose the Docker Quickstart Terminal.
-+ This opens up a new terminal window that runs through an installation script.
-+ At the end of the script, you will see ASCII art of a whale and your are left at a prompt.
-+ Run this command in the terminal: ``docker run hello-world``
-+ This will give you output confirming your installation of docker has worked: ``Hello from Docker``
-+ In the docker terminal, run (This operation requires a good internet connection to download ~2.5Gb; it will take some minutes):  ``docker pull deepub/deepub``    
-+ Run the DeepUB image on your system: ``docker run -i -t -p 8888:8888 deepub/deepub``
-+ Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888`` (or ``http://<DOCKER-MACHINE-IP>:8888`` if you are using a Docker Machine VM) to access to the fully operational Jupyter notebook of this course. (Note: the address of your Docker Machine VM is printed at the end of the Docker booting process, just after the ASCII whale).
++ Step one of the instructions sends you to download Dorcke.
++ Run that downloaded file to install Docker.
++ At the end of the install process a whale in the top status bar indicates that Docker is running, and accessible from a terminal.
++ Click the whale to get ``Preferences``, and other options.
++ Open a command-line terminal, and run some Docker commands to verify that Docker is working as expected.
+Some good commands to try are ``docker version`` to check that you have the latest release installed, and ``docker ps`` and ``docker run hello-world`` to verify that Docker is running. 
++ By default, Docker is set to use 2 processors. You can increase processing power for the app by setting this to a higher number in ``Preferences``, or lower it to have Docker for Mac use fewer computing resources.
++ Memory - By default, Docker is set to use 2 GB runtime memory, allocated from the total available memory on your computer. You can increase the RAM on the app to get faster performance by setting this number higher (for example to 3) or lower (to 1) if you want Docker to use less memory.
 
-## Docker Optimization 
+Once Docker is installed, you can dowload the image of this course:
 
-(Source: ``https://petewarden.com/2016/02/28/tensorflow-for-poets/``)
-
-Under the hood, Docker actually uses VirtualBox to run its images, and we’ll use its control panel to manage the setup. To do that, we’ll need to take the following steps:
-
-+ Find the VirtualBox application on your Mac/PC. 
-+ Once VirtualBox is open, you should see a left-hand pane showing virtual machines. There should be one called ``default`` that’s running.
-+ Right-click on ``default`` to bring up the context menu and chose ``Close->ACPI Shutdown``. The other close options should also work, but this is the most clean.
-+ Once the shutdown is complete, ``default`` should have the text ``Powered off`` below it. Right click on it again and choose ``Settings…`` from the menu.
-+ Click on the ``System`` icon, and then choose the ``Motherboard`` tab.
-+ Drag the ``Base Memory`` slider as far as the green section goes, which is normally around 75% of your total laptop’s memory. 
-+ Click on the ``Processor`` tab, and set the number of processors higher than the default of 1. 
-+ Click ``OK`` on the settings dialog.
-+ Right-click on ``default`` and choose ``Start->Headless Start``.
++ In a terminal, run (This operation requires a good internet connection; it will take some minutes):  ``docker pull deepub/deepub``    
++ Run the ``deepub`` image on your system: ``docker run -i -t -p 8888:8888 deepub/deepub``
++ Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888``.
