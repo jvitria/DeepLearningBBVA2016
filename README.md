@@ -21,7 +21,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 The best way to run the course software is to use a Docker container. There’s full documentation on installing Docker at ``docker.com``, but in a few words, the steps are:
 
 + Go to ``docs.docker.com`` in your browser.
-+ Step one of the instructions sends you to download Dorcke.
++ Step one of the instructions sends you to download Docker.
 + Run that downloaded file to install Docker.
 + At the end of the install process a whale in the top status bar indicates that Docker is running, and accessible from a terminal.
 + Click the whale to get ``Preferences``, and other options.
