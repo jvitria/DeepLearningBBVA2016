@@ -14,7 +14,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 <li> Convolutions & CNN models.
 <li> Recurrent Neural Netwoks.
 <li> Unsupervised Learning.
-<li> Advanced Applications: Neural art, colorization, music generation.
+<li> Advanced Applications: Recommenders, Natural Language.
 
 ## Course Software Installation
 
