@@ -10,7 +10,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 <li> Introduction to Deep Learning and its applications. Using the Jupyter notebook & Docker.
 <li> Basic Concepts: Score & Loss functions, Optimization (SGD), Linear Regression.
 <li> Automated differentiation, Backpropagation, Training a Neural Netwotk from Scratch.
-<li> Tensorflow programming model. 
+<li> Tensorflow programming model. Keras & TFLearn. 
 <li> Convolutions & CNN models.
 <li> Recurrent Neural Netwoks.
 <li> Unsupervised Learning.
