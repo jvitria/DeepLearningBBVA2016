@@ -1,6 +1,6 @@
 # Deep Learning from Scratch (v2.0)
 
-This course is organized by the DataScienceGroup@UB (http://datascience.barcelona/)
+This course is organized by the DataScienceGroup@UB (http://datascience.barcelona/en/)
 
 Deep learning is one of the fastest growing areas of machine learning and a hot topic in both academia and industry.
 This course will cover the basics of deep learning by using a hands-on approach.
@@ -14,7 +14,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 <li> Convolutions & CNN models.
 <li> Recurrent Neural Netwoks.
 <li> Unsupervised Learning.
-<li> Advanced Applications: Time Series, Recommenders, Natural Language.
+<li> Advanced Applications: Time Series, Embeddings, Sentiment Analysis.
 
 ## Course Software Installation
 

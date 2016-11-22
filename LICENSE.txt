@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright (c) 2016 Jordi Vitria, Santi Segui, Oriol Pujol, Guillem Pascual, Axel Brando, and Carles Riera.
+Copyright (c) 2016 Jordi Vitria, Santi Segui, Oriol Pujol.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
