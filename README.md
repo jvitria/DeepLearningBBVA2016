@@ -14,7 +14,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 <li> Convolutions & CNN models.
 <li> Recurrent Neural Netwoks.
 <li> Unsupervised Learning.
-<li> Advanced Applications: Time Series, Recommenders, Natural Language.
+<li> Advanced Applications: Time Series, Embeddings, Sentiment Analysis.
 
 ## Course Software Installation
 
