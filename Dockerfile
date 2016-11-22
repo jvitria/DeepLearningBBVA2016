@@ -8,5 +8,3 @@ FROM gcr.io/tensorflow/tensorflow
 
    #Remove examples
    RUN rm -Rf *
-
-   RUN git clone https://github.com/jvitria/DeepLearningBBVA2016
