@@ -1,6 +1,6 @@
 # Deep Learning from Scratch (v2.0)
 
-This course is organized by the DataScienceGroup@UB (http://datascience.barcelona/en/)
+This course is organized by the DataScienceGroup@UB (http://datascience.barcelona/)
 
 Deep learning is one of the fastest growing areas of machine learning and a hot topic in both academia and industry.
 This course will cover the basics of deep learning by using a hands-on approach.
@@ -14,7 +14,7 @@ This course will cover the basics of deep learning by using a hands-on approach.
 <li> Convolutions & CNN models.
 <li> Recurrent Neural Netwoks.
 <li> Unsupervised Learning.
-<li> Advanced Applications: Time Series, Embeddings, Sentiment Analysis.
+<li> Advanced Applications: Time Series, Recommenders, Natural Language.
 
 ## Course Software Installation
 
@@ -33,5 +33,5 @@ Some good commands to try are ``docker version`` to check that you have the late
 Once Docker is installed, you can dowload the image of this course:
 
 + In a terminal, go to yur course folder and run (This operation requires a good internet connection; it will take some minutes):  ``docker pull datascienceub/deepub``    
-+ Run the ``deepub`` image on your system: ``docker run -i -t -p 8888:8888 datascienceub/deepub``
++ Run the ``deepub`` image on your system: ``docker run -it -p 8888:8888 -v /$(pwd):/notebooks datascienceub/deepub``
 + Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888``.
