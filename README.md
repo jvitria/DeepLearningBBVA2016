@@ -35,3 +35,4 @@ Once Docker is installed, you can dowload the image of this course:
 + In a terminal, go to your course folder and run (This operation requires a good internet connection; it will take some minutes):  ``docker pull datascienceub/deepub``    
 + Run the ``deepub`` image on your system: ``docker run -it -p 8888:8888 -p 6006:6006 -v /$(pwd):/notebooks datascienceub/deepub``
 + Once these steps have been done, you can check the installation by starting your web browser and introducing this  URL: ``http://localhost:8888``.
++ Open a new notebook and execute this instruction in a code cell: ``!git clone https://github.com/jvitria/DeepLearningBBVA2016``
